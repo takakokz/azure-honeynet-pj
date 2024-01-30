@@ -30,6 +30,11 @@ The summary of comparison between before 24 hours and after hours the hardening 
 ## Azure Technology Deployed and Related Standard
 [Azure Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 [Azure Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
+[Azure Key vault](https://azure.microsoft.com/en-us/products/key-vault)
+[Azure Blob]([https://azure.microsoft.com/en-us/products/key-vault](https://azure.microsoft.com/en-us/products/storage/blobs))
+[Log Analytic Workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview)
+
+## How to Create Honeynet
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
