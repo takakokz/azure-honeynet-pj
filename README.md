@@ -39,10 +39,10 @@ The honeynet is strengthened and number of logs with critical alert dramatically
 Virtual Machine (2 Windows, 1 Linux)
 NIST800-31
 
-## How to Create Honeynet
-
 ## Architecture Before Hardening / Security Controls
 ![Before Hardening](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/6a2fdcfc-3e83-4aa2-b97f-2e378b924eb6)
+This diagram shows Honeynet which is vulnerable to attacks from internet.  
+I created a Windows VM and a Linux VM then added rules to open all ports and traffics to both of their Network Security Groups. The firewall was diabled on Windows VM to permit all traffics as well. 
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
