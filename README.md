@@ -11,8 +11,25 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
+## Objective
+
+Objectives of this project is to allow me to conduct:
+
+- Consolidate logs generated from various sources into one SEIM
+- Analyze attacks from all over the world in real time
+- Investigate and learn attackers technique and procedure
+- Configure firewall to create vulnerable and hardened environemnt
+- Implement Next Generation Security (NGS)
+- Apply configurations recommendated by NIST800-31 and Microsoft Defender for Cloud
+
+After honeynet is created and configured to ingest logs into a SEIM, I have left environments vulnerable to cyberattacks for 24 hours.
+I have investigated critical attacks to learn attackers' techniques then configured security control recommended by built-in recommendations.
+The honeynet is strengthened and number of logs with critical alert dramatically decreased after security hardening.
+The summary of comparison between before 24 hours and after hours the hardening is shown below.
+
 ## Azure Technology Deployed and Related Standard
 [Azure Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+[Azure Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
