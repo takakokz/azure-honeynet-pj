@@ -22,17 +22,21 @@ Objectives of this project is to allow me to conduct:
 - Implement Next Generation Security (NGS)
 - Apply configurations recommendated by NIST800-31 and Microsoft Defender for Cloud
 
+## Method
 After honeynet is created and configured to ingest logs into a SEIM, I have left environments vulnerable to cyberattacks for 24 hours.
 I have investigated critical attacks to learn attackers' techniques then configured security control recommended by built-in recommendations.
 The honeynet is strengthened and number of logs with critical alert dramatically decreased after security hardening.
-The summary of comparison between before 24 hours and after hours the hardening is shown below.
 
 ## Azure Technology Deployed and Related Standard
-[Azure Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
-[Azure Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
-[Azure Key vault](https://azure.microsoft.com/en-us/products/key-vault)
-[Azure Blob]([https://azure.microsoft.com/en-us/products/key-vault](https://azure.microsoft.com/en-us/products/storage/blobs))
-[Log Analytic Workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview)
+[Azure Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)  
+[Azure Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)  
+[Azure Key vault](https://azure.microsoft.com/en-us/products/key-vault)  
+[Azure Blob]([https://azure.microsoft.com/en-us/products/key-vault](https://azure.microsoft.com/en-us/products/storage/blobs))  
+[Network Security Group](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)  
+[Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)  
+[Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)  
+Virtual Machine (2 Windows, 1 Linux)
+NIST800-31
 
 ## How to Create Honeynet
 
