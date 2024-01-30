@@ -31,17 +31,18 @@ The honeynet is strengthened and number of logs with critical alert dramatically
 [Azure Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)  
 [Azure Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)  
 [Azure Key vault](https://azure.microsoft.com/en-us/products/key-vault)  
-[Azure Blob]([https://azure.microsoft.com/en-us/products/key-vault](https://azure.microsoft.com/en-us/products/storage/blobs))  
+[Azure Blob]([https://azure.microsoft.com/en-us/products/key-vault](https://azure.microsoft.com/en-us/products/storage/blobs)  
 [Network Security Group](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)  
 [Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)  
 [Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)  
+[Write SQL Server Audit events to the Security log]([https://azure.microsoft.com/en-us/products/key-vault](https://learn.microsoft.com/en-us/sql/relational-databases/security/auditing/write-sql-server-audit-events-to-the-security-log?view=sql-server-ver16))  
 Virtual Machine (2 Windows, 1 Linux)
 NIST800-31
 
 ## How to Create Honeynet
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Diagram](![Before Hardening](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/6a2fdcfc-3e83-4aa2-b97f-2e378b924eb6)
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
