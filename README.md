@@ -20,7 +20,7 @@ Objectives of this project is to allow me to conduct:
 - Investigate and learn attackers technique and procedure
 - Configure firewall to create vulnerable and hardened environemnt
 - Implement Next Generation Security (NGS)
-- Apply configurations recommendated by NIST800-31 and Microsoft Defender for Cloud
+- Apply configurations recommended by NIST800-31 and Microsoft Defender for Cloud
 
 ## Method
 After honeynet is created and configured to ingest logs into a SEIM, I have left environments vulnerable to cyberattacks for 24 hours.
