@@ -35,6 +35,7 @@ The honeynet is strengthened and number of logs with critical alert dramatically
 [Network Security Group](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)  
 [Overview of Azure platform logs](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/platform-logs-overview)    
 [Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)  
+[Microsoft Sentinel Watchlist](https://learn.microsoft.com/en-us/azure/sentinel/watchlists))  
 [Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)  
 [Write SQL Server Audit events to the Security log]([https://azure.microsoft.com/en-us/products/key-vault](https://learn.microsoft.com/en-us/sql/relational-databases/security/auditing/write-sql-server-audit-events-to-the-security-log?view=sql-server-ver16))  
 Virtual Machine (2 Windows, 1 Linux)
