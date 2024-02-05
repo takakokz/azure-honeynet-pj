@@ -118,13 +118,14 @@ Event ID = 18456 (Failed Login)
 Someone in Africa tried to login to MS SQL server for 6 times
 
 - <b>CUSTOM: Malware Detected</b>  
-If file with Malware is placed on the computer, alert as an insident  
+If file with Malware is placed on the computer, alert as an insident
+Table name = Event  
+EventLog == "Microsoft-Windows-Windows Defender/Operational"  
+EventID == "1116" or EventID == "1117"  
 ![Malware](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/d6a2a05e-145a-4f88-94ca-9c15b91e3382)  
 
 
-Table name = Event  
-EventLog == "Microsoft-Windows-Windows Defender/Operational"  
-EventID == "1116" or EventID == "1117"
+
 
 ## Conclusion
 
