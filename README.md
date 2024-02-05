@@ -102,6 +102,19 @@ Stop Time	2023-03-19 15:37
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
 
+## Incident / Alert Setting
+Brute Force Success Windows  
+If a person with same IP address failed login to Windows VM more than 5 times and a seccessful login history in past one hour, flag as an incident 
+Come from Security Event Log  
+
+Brute Force Attempt MS SQL Server  
+If a person with same IP address failed login to MS SQL server more than 10 times, flag as an incident.    
+Come from Application Log  
+Event ID = 18456 (Failed Login)  
+![SQL Bruce Force](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/a1ebf00e-01c2-46ee-bc19-651f0ed552db)  
+Someone in Africa tried to login to MS SQL server for 6 times
+
+
 ## Conclusion
 
 In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
