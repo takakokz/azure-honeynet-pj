@@ -66,23 +66,23 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![NSG](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/07505fc7-5ced-48f5-986e-7fe6d24dbfcd)<br>
+![Linux Syslog Auth Failures](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/742dea6c-821a-4c61-a2ec-93b881455b89)<br>
+![Windows RDP/SMB Auth Failures](https://github.com/takakokz/azure-honeynet-pj/assets/13964231/2913d21d-9cab-4b8e-9c92-0d23ca9eeaed)<br>
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 2023-12-11 20:08:03
+Stop Time 2023-12-12 20:09:10
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 20581
+| Syslog                   | 17789
+| SecurityAlert            | 14
+| SecurityIncident         | 236
+| AzureNetworkAnalytics_CL | 1050
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -91,16 +91,16 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2023-12-13 21:03
+Stop Time	2023-12-14 21:03
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
-| SecurityAlert            | 0
+| SecurityEvent            | 12478
+| Syslog                   | 0
+| SecurityAlert            | 1
 | SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| AzureNetworkAnalytics_CL | 70
 
 ## Incident / Alert Setting
 - <b>Brute Force Success Windows</b>  
